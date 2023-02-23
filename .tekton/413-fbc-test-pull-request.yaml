@@ -14,7 +14,7 @@ metadata:
     appstudio.openshift.io/component: 413-fbc-test
     pipelines.appstudio.openshift.io/type: build
   name: 413-fbc-test-on-pull-request
-  namespace: dev-release-team-tenant
+  namespace: user1-tenant
 spec:
   params:
   - name: dockerfile
